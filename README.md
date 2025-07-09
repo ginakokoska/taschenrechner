@@ -5,6 +5,7 @@ The goal of this project is to learn the basics of frontend development and stat
 
 ---
 
+
 ## ✨ Features
 
 - Click or use your **keyboard** to enter numbers and operations
@@ -25,6 +26,8 @@ Clone the repository and install dependencies:
 git clone https://github.com/<your-username>/<your-repo-name>.git
 cd <your-repo-name>
 npm install
+
+```
 
 ## 📚 What I Learned
 
