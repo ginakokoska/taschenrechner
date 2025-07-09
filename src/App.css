@@ -1,0 +1,130 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.calculator {
+  width: 300px;
+  margin: 40px auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background: #f8f8f8;
+}
+
+.display {
+  height: 60px;
+  background: #222;
+  color: #fff;
+  font-size: 2rem;
+  text-align: right;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow-x: auto;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.operators button {
+  background: #924f94;
+  color: white;
+  font-weight: bold;
+}
+
+
+.numpad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  flex: 3;
+}
+
+.equalsOperator {
+  background: #866d86;
+  color: white;
+  font-weight: bold;
+}
+
+.operators {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.display {
+  background: #222;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+  font-family: monospace;
+}
+
+.display .input {
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.display .result {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button {
+  padding: 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background: #d293d4;
+  cursor: pointer;
+}
+
+
+
+button:hover {
+  background: #ddd;
+}
